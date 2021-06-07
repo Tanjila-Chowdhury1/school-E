@@ -1,0 +1,282 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+
+    width: 15%;
+    }
+    .navbar-brand img{
+    
+        
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+color: #000;
+        
+font-size: 16px;
+        
+font-weight: 400;
+        
+font-family: 'Poppins', sans-serif;
+        
+text-transform: capitalize;
+    }
+        
+.btn-signin {
+        font-family: Roboto;
+        background: #21B573;
+        padding: 12px 28px;
+        color: #fff;
+        color: white;
+        text-transform: capitalize;
+        border-radius: 30px;
+    }
+.btn-signin:hover{
+color: #fff;
+background-color: seagreen;
+}
+.navbar-nav{
+
+align-items: center;
+}
+.header{
+    background-color:#F0FFF0;
+
+}
+.banner-content h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+
+
+
+color: #000000;
+
+
+}
+.banner-content h1 span{
+    color: seagreen;
+}
+.banner-content h5{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+
+color: #FD511A;
+
+
+}
+.banner-content p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 36px;
+
+
+
+color: #6C6B6B;
+
+
+
+}
+.btn-started{
+    border-radius: 30px;
+    background-color: seagreen;
+    text-transform: capitalize;
+    
+font-family: Roboto;
+   padding: 10px 20px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 33px;
+}
+.btn-started:hover{
+    color: #fff;
+    background-color: seagreen;
+
+    }
+    
+.spaceing{
+        padding: 50px 0;
+    }
+.feature{
+        text-align: center;
+        background: #F8FFFB;
+        padding: 50px 0;
+
+    }
+.feature img{
+    width: 40%;
+    margin-bottom: 15px;
+
+    }
+.feature h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+
+
+
+color: #413960;
+
+    }
+.feature p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+
+color: #585859;
+
+
+    }
+.feature-section{
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+.feature:hover{
+        background-color: #fff;
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    }
+.course{
+   
+    
+    padding: 20px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.course img{
+width: 100%;
+
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.course h2{
+    font-family: Poppins;
+
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #413960;
+
+}
+.course p{
+    font-family: Poppins;
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+
+.btn-course{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18.5px;
+    padding: 0;
+    padding: 8px 28px;
+    margin: 20px 0;
+    border-radius: 33px;
+    color: #FFFFFF;
+   font-weight: 400;
+  text-align: left;
+   
+   background-color: seagreen;    
+}
+.btn-course:hover{
+    background-color: rgb(36, 141, 81); 
+    color: #FFFFFF;  
+}
+.course ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.course ul li{
+    font-family: Poppins;
+    
+    
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    
+}
+.course ul li i{
+    margin-right: 10px;
+
+}
+.heading h1{
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.client{
+border-radius: 50px;
+width: 40%;
+margin-left: auto;
+border: 1px solid #F0FFF0;
+overflow: hidden;
+}
+.client img{
+
+}
+
+.testimonial p{
+    line-height: 30px;
+    color: #000;
+}
+footer {
+    background: #282531;
+    color: #fff;
+}
+footer p{
+font-size: 16px;
+line-height: 30px;
+}
+footer ul{
+list-style: none;
+margin: 0;
+padding: o;
+}
+footer ul li{
+font-weight: 200;
+margin-left: 100px;
+}
+footer ul li:first-child{
+    font-weight: 600px;
+}
+.first-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.text{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
